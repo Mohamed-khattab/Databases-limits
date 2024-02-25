@@ -4,6 +4,7 @@ import (
 	"databases-limit/configs"
 	_ "databases-limit/internal/MySQL"
 	"databases-limit/internal/PostgreSQL"
+	"databases-limit/internal/SQLite"
 	"fmt"
 )
 
