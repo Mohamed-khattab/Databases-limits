@@ -1,9 +1,10 @@
-package mySQL
+package postgresql
 
 import (
-	"fmt")
+	"fmt"
+)
 
-// Connect to MySQL database
+// Connect to PostgreSQL database
 func Connect() {
-	fmt.Println("Connected to MySQL database")
+	fmt.Println("Connected to PostgreSQL database")
 }
